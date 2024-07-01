@@ -23,7 +23,7 @@ class ExerciseFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Initialize UI elements and add functionality here
+
     }
 
     override fun onDestroyView() {

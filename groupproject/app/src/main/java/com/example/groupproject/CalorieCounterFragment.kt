@@ -41,7 +41,7 @@ class CalorieCounterFragment : Fragment() {
         }
 
         binding.healthRatingBar.setOnRatingBarChangeListener { ratingBar, rating, fromUser ->
-            // Handle rating change
+            //handle rating change
         }
 
         loadMeals()
