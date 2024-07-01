@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/calorieCounterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calorie Counter"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/exerciseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/stepCounterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step Counter"
+        android:layout_gravity="center"/>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
